@@ -1,1 +1,13 @@
-eka push/testi
+
+    Tunnetusti JavaScriptissä muuttujilla yms. ei ole tyyppiä, mutta arvoilla on. Kielessä on joukko arvon tyypin tutkimisen välineitä, mutta ehkei niitä ole tarpeeksi ja ehkeivät ne ole tarpeeksi tiukkoja. Esimerkiksi parseInt hyväksyy numeromerkkien jonon perään mitä vain roskaa, jne.
+    Laatikaa siis ehdotus yhtenäisestä joukosta kirjastofunktioita, joilla arvojen tyyppejä voi tarkastaa. Olisiko totuusarvo vai ehkä undefined paras paluuarvo ilmaisemaan tyypiltään virheellistä arvoa?
+    Tarkistusfunktioita voisi tehdä ainakin kokonaisluvuille, yleensä luvuille, merkkijonoille, pelkästään kokonaislukuja sisältäville taulukoille, pelkästään lukuja sisältäville taulukoille, ..., ym. Keksikää tarpeellisia(?) lisäyksiä.
+    Antakaa hyviä esimerkkejä tyyppiturvallisuutta tavoittelevasta ohjelmointityylistä funktioitanne käyttäen.
+    Voitte pohtia tyyppiturvallisuuden tavoittelua myös yleisemmällä tasolla. 
+
+
+
+Heittelen tänne jotain ajatuksia mitä itellä tulee, parsikaa näistä jotain kokoon.
+
+
+Mun mielestä olis järkevää että noita pystys tarkistaan totuusarvoilla. Heittää jollekki funkiolle kyselyn, parametrina arvo mitä katotaan ja se sit palauttaa true tai false. Mutta pitäs varmaan kattoo myös mitä JS tarjoo jo nyt, kai niillä jotain on...? 
